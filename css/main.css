@@ -540,13 +540,19 @@ aside ul.bullet-list {
 }
 
 .card {
-  width: 35em;
+  width: 70%;
   max-width: 100%;
   padding: 1em;
   margin: 1em auto 1em auto;
   background-color: hsl(210, 30%, 25%);
   border-radius: 3px;
   box-shadow: 0 5px 25px 0 rgba(0,0,0, 0.25);
+}
+
+@media (width <= 60em) {
+  .card {
+    width: 100%;
+  }
 }
 
 .card img {
@@ -572,7 +578,7 @@ aside ul.bullet-list {
 
 a.listing-link {
   color: hsl(195, 15%, 55%);
-  font-size: 1.5rem;
+  font-size: 1.85rem;
   font-family: Calibri, system-ui, sans-serif;
 }
 
