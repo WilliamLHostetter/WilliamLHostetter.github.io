@@ -597,3 +597,17 @@ a.listing-link:hover, a.listing-link:active {
 .center-text {
   text-align: center;
 }
+
+.skills-svg-icon {
+  height: 2rem;
+  width: auto;
+}
+
+img.skills-icon {
+  height: 2rem;
+  width: auto;
+}
+
+h3.skills-header {
+  line-height: 2.25;
+}

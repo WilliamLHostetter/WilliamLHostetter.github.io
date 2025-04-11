@@ -19,7 +19,7 @@
     <meta property="og:url" content="/index.html">
 
     <!-- Open Graph Tags: URL of an image that represents the page. Useful for link previews. -->
-    <meta property="og:image" content="/img/profile.webp">
+    <meta property="og:image" content="/images/profile.webp">
 
     <!-- Open Graph Tags: Provides an alternative text for the image to improve accessibility. -->
     <meta property="og:image:alt" content="William Hostetter Profile Image">
@@ -41,11 +41,11 @@
     <meta name="theme-color" content="#fafafa">
 
     <!-- Favicon for all browsers -->
-    <link rel="icon" href="img/favicon.ico" sizes="any">
-    <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+    <link rel="icon" href="images/icon.svg" type="image/svg+xml">
 
     <!-- Apple touch icon for iOS devices -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon.png">
 
     <!-- Web app manifest for Progressive Web Apps -->
     <link rel="manifest" href="/site.webmanifest">
@@ -62,7 +62,7 @@
           <img class="header-image"
             width="256"
             height="256"
-            src="img/profile.webp"
+            src="images/profile.webp"
             alt="William Hostetter Profile Image" />
           
           <div class="header-info">
@@ -137,147 +137,226 @@
 
           <section class="category small-screen-display">
             <h2 class="section-heading">Skills</h2>
-            <section>
-              <ul class="unstyled-list">  
-                <li>
-                  <h3>
-                    <span class="nowrap">Data Analysis</span> &amp; <span class="nowrap">Numerical Computing</span>
-                  </h3>
-                  <div class="skill-bar">
-                    <div class="skill-bar-fill w-90"
-                      role="meter"
-                      aria-valuenow="90"
-                      aria-valuemin="0"
-                      aria-valuemax="100">
-                      <span class="skill-bar-label">Advanced</span>
-                    </div>
+            <ul class="unstyled-list">  
+              <li>
+                <h3 class="skills-header">
+                  <span class="nowrap"><img class="skills-icon" src="images/data-analysis-icon.svg" title="Data Analysis" /> Data Analysis</span> &amp;
+                  <span class="nowrap">Numerical Computing</span>
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-90"
+                    role="meter"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Advanced</span>
                   </div>
-                </li>
-                <li>
-                  <h3>Responsive Web Design (RWD), HTML5, CSS3, JavaScript</h3>
-                  <div class="skill-bar">
-                    <div class="skill-bar-fill w-90"
-                      role="meter"
-                      aria-valuenow="90"
-                      aria-valuemin="0"
-                      aria-valuemax="100">
-                      <span class="skill-bar-label">Advanced</span>
-                    </div>
+                </div>
+              </li>
+              <li>
+                <h3 class="skills-header"><span class="nowrap">HTML5 <img class="skills-icon" src="images/html5-logo.svg" title="HTML5" /></span>, 
+                  <span class="nowrap">CSS3 <img class="skills-icon" src="images/css3-logo.svg" title="CSS3" /></span>, 
+                  <span class="nowrap">JavaScript<img class="skills-icon" src="images/javascript-logo.svg" title="JavaScript" /></span>, 
+                  <span class="nowrap">React.js<img class="skills-icon" src="images/react-logo.svg" title="React.js" /></span>, 
+                  <span class="nowrap"><img class="skills-icon" src="images/svg-logo.svg" alt="SVG" title="Scalable Vector Graphics (SVG)" /></span>, 
+                  Responsive Web Design (RWD) <img class="skills-icon" src="images/responsive-web-design.svg" title="Responsive Web Design" />
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-90"
+                    role="meter"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Advanced</span>
                   </div>
-                </li>
-                <li>
-                  <h3><span class="nowrap">Python (Flask, Django)</span></h3>
-                  <div class="skill-bar">
-                    <div class="skill-bar-fill w-90"
-                      role="meter"
-                      aria-valuenow="90"
-                      aria-valuemin="0"
-                      aria-valuemax="100">
-                      <span class="skill-bar-label">Advanced</span>
-                    </div>
+                </div>
+              </li>
+              <li>
+                <h3 class="skills-header">
+                  <span class="nowrap">Python <img class="skills-icon" src="images/python-logo.svg" title="Python" /></span>,
+                  <span class="nowrap">Flask <img class="skills-icon" src="images/flask-logo.svg" title="Flask" /></span>, 
+                  <span class="nowrap">Django <img class="skills-icon" src="images/django-logo.svg" title="Django" /></span>,
+                  <span class="nowrap">OpenCV <img class="skills-icon" src="images/opencv-logo.svg" title="OpenCV" /></span>,
+                  &amp; <span class="nowrap">Matlab <img class="skills-icon" src="images/matlab-logo.png" title="Matlab" /></span>
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-90"
+                    role="meter"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Advanced</span>
                   </div>
-                </li>
-                <li>
-                  <h3>
-                    <span class="nowrap">PHP (WAMP/LAMP, Laravel)</span>, 
-                    <span class="nowrap">JavaScript (Node.js, Express)</span>, 
+                </div>
+              </li>
+              <li>
+                <h3 class="skills-header">
+                  <span class="nowrap">
+                    <img class="skills-icon" src="images/php-logo.svg" alt="PHP" title="PHP" />
+                    (WAMP, LAMP, Laravel <img class="skills-icon" src="images/laravel-logo.svg" title="Laravel" />)
+                  </span>, 
+                  <span class="nowrap">JavaScript 
+                    (<img class="skills-icon" src="images/nodejs-logo.svg" alt="Node.js" title="Node.js"/>, 
+                    <img class="skills-icon" src="images/ExpressJS-logo.svg" alt="ExpressJS" title="ExpressJS" />) 
+                  </span>, 
+                  and 
+                  <span class="nowrap"><img class="skills-icon" src="images/C-Sharp-logo.svg" alt="C#" title="C# Programming Language" /> 
+                    (<img class="skills-icon" src="images/asp-dot-net-logo.svg" alt="ASP.NET" alt="ASP.NET" title="ASP.NET"/>)</span>
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-75"
+                    role="meter"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Comfortable</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h3 class="skills-header">
+                  <img class="skills-icon" src="images/c-logo.svg" alt="C" title="C Programming Language" />, 
+                  <img class="skills-icon" src="images/cplusplus-logo.svg" alt="C++" title="C++ Programming Language" />, 
+                  <img class="skills-icon" src="images/c-sharp-logo.svg" alt="C#" title="C# Programming Language" />, 
+                  <img class="skills-icon" src="images/java-logo.svg" alt="Java" title="Java Programming Language" />, 
+                  and <img class="skills-icon" src="images/go-logo.svg" alt="Go" title="Go Programming Language" />
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-75"
+                    role="meter"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Comfortable</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h3 class="skills-header">
+                  Databases:<br>
+                  <span class="nowrap">SQL 
+                    (<img class="skills-icon" src="images/sqlite-logo.svg" alt="SQLite" title="SQLite Database" /> SQLite, 
+                    <img class="skills-icon" src="images/mysql-logo.svg" alt="MySQL" title="MySQL Database" />, 
+                    <img class="skills-icon" src="images/postgresql-logo.svg" alt="PostgreSQL" title="PostgreSQL Database" />)
+                    </span>,
+                  <span class="nowrap">
+                    NoSQL (<img class="skills-icon" src="images/mongodb-logo.svg" alt="MongoDB" title="MongoDB" />)
+                  </span>, 
                     and 
-                    <span class="nowrap">C# (ASP.NET)</span>
-                  </h3>
-                  <div class="skill-bar">
-                    <div class="skill-bar-fill w-75"
-                      role="meter"
-                      aria-valuenow="75"
-                      aria-valuemin="0"
-                      aria-valuemax="100">
-                      <span class="skill-bar-label">Comfortable</span>
-                    </div>
+                  <span class="nowrap">TSDB 
+                    (<img class="skills-icon" src="images/influxdb-logo.svg" alt="InfluxDB" title="InfluxDB" />)
+                  </span>
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-75"
+                    role="meter"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Comfortable</span>
                   </div>
-                </li>
-                <li>
-                  <h3>C, C++, C#, and Go</h3>
-                  <div class="skill-bar">
-                    <div class="skill-bar-fill w-75"
-                      role="meter"
-                      aria-valuenow="75"
-                      aria-valuemin="0"
-                      aria-valuemax="100">
-                      <span class="skill-bar-label">Comfortable</span>
-                    </div>
+                </div>
+              </li>
+              <li>
+                <h3 class="skills-header">Cloud services 
+                  (<img class="skills-icon" src="images/aws-logo.svg" alt="AWS" title="Amazon Web Services" />, 
+                  <img class="skills-icon" src="images/azure-logo.svg" alt="Azure" title="Microsoft Azure" />, 
+                  <img class="skills-icon" src="images/gcp-logo.svg" alt="GCP" title="Google Cloud Platform" />, 
+                  <img class="skills-icon" src="images/linode-logo.svg" alt="Linode" title="Linode Cloud Computing" />)
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-75"
+                    role="meter"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Comfortable</span>
                   </div>
-                </li>
-                <li>
-                  <h3>
-                    Databases:<br>
-                    <span class="nowrap">SQL (SQLite, MySQL, PostgreSQL)</span>,
-                    <span class="nowrap"> NoSQL (MongoDB)</span>, and 
-                    <span class="nowrap">TSDB (InfluxDB)</span>
-                  </h3>
-                  <div class="skill-bar">
-                    <div class="skill-bar-fill w-75"
-                      role="meter"
-                      aria-valuenow="75"
-                      aria-valuemin="0"
-                      aria-valuemax="100">
-                      <span class="skill-bar-label">Comfortable</span>
-                    </div>
+                </div>
+              </li>
+              <li>
+                <h3 class="skills-header">
+                  <span class="nowrap">
+                    Containerization (<img class="skills-icon" src="images/docker-logo.svg" alt="Docker" title="Docker" />)
+                  </span>
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-75"
+                    role="meter"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Comfortable</span>
                   </div>
-                </li>
-                <li>
-                  <h3>
-                    Cloud services (AWS, Azure, GCP, Linode, DigitalOcean), 
-                    <span class="nowrap">Containerization (Docker)</span>, and 
-                    <span class="nowrap">version control (Git, GitHub)</span>
-                  </h3>
-                  <div class="skill-bar">
-                    <div class="skill-bar-fill w-75"
-                      role="meter"
-                      aria-valuenow="75"
-                      aria-valuemin="0"
-                      aria-valuemax="100">
-                      <span class="skill-bar-label">Comfortable</span>
-                    </div>
+                </div>
+              </li>
+              <li>
+                <h3 class="skills-header">
+                  <span class="nowrap">
+                    Version Control 
+                    (<img class="skills-icon" src="images/git-logo.svg" alt="Git" title="Git" />, 
+                    <img class="skills-icon" src="images/github-logo.svg" alt="GitHub" title="GitHub"/>)
+                  </span>
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-75"
+                    role="meter"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Comfortable</span>
                   </div>
-                </li>
-                <li>
-                  <h3>Elasticsearch Search Engine</h3>
-                  <div class="skill-bar">
-                    <div class="skill-bar-fill w-75"
-                      role="meter"
-                      aria-valuenow="75"
-                      aria-valuemin="0"
-                      aria-valuemax="100">
-                      <span class="skill-bar-label">Comfortable</span>
-                    </div>
+                </div>
+              </li>
+              <li>
+                <h3 class="skills-header">
+                  <span class="nowrap">
+                    Search Engine (<img class="skills-icon" src="images/elasticsearch-logo.svg" alt="Elasticsearch" title="Elasticsearch"/>)
+                  </span>
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-75"
+                    role="meter"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Comfortable</span>
                   </div>
-                </li>
-                <li>
-                  <h3>System Administration, Linux</h3>
-                  <div class="skill-bar">
-                    <div class="skill-bar-fill w-75"
-                      role="meter"
-                      aria-valuenow="75"
-                      aria-valuemin="0"
-                      aria-valuemax="100">
-                      <span class="skill-bar-label">Comfortable</span>
-                    </div>
+                </div>
+              </li>
+              <li>
+                <h3 class="skills-header">
+                  <span class="nowrap">System Administration</span>, 
+                  <span class="nowrap">Linux <img class="skills-icon" src="images/linux-logo.svg" title="Linux" /></span>
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-75"
+                    role="meter"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Comfortable</span>
                   </div>
-                </li>
-              </ul>
-            </section>
+                </div>
+              </li>
+            </ul>
           </section>
           
           <section class="category">
             <h2 class="section-heading">Interests</h2>
             <h3 class="center-text">Data Acquisition, Processing, &amp; Visualization</h3>
             <div class="card">
-              <a class="listing-link" rel="noopener noreferrer nofollow" href="https://github.com/WilliamLHostetter/live-plotting-matplotlib-python" target="_blank">
+              <a class="listing-link" 
+                rel="noopener noreferrer nofollow" 
+                href="https://github.com/WilliamLHostetter/live-plotting-matplotlib-python" 
+                target="_blank">
                 <img
                   width="1400"
                   height="700"
                   class="bkg-vertical-gradient"
-                  src="img/live-plotting-matplotlib-listing.gif" 
-                  alt="Live Plotting">
+                  src="images/live-plotting-matplotlib-listing.gif" 
+                  alt="Live Plotting with Python using Matplotlib"
+                  title="Live Plotting with Python using Matplotlib">
               </a>
               <p class="card-caption">
                 <a class="listing-link" rel="noopener noreferrer nofollow" href="https://github.com/WilliamLHostetter/live-plotting-matplotlib-python" target="_blank">
@@ -292,8 +371,9 @@
                   width="1400"
                   height="700"
                   class="bkg-vertical-gradient"
-                  src="img/shape_detection.png" 
-                  alt="Live Plotting">
+                  src="images/shape_detection.png" 
+                  alt="Shape Detection with OpenCV-Python"
+                  title="Shape Detection with OpenCV-Python">
               </a>
               <p class="card-caption">
                 <a class="listing-link" rel="noopener noreferrer nofollow" href="https://github.com/WilliamLHostetter/shape-detection-opencv-python" target="_blank">
@@ -307,8 +387,9 @@
                   width="1200"
                   height="600"
                   class="bkg-vertical-gradient"
-                  src="img/text-to-speech.svg" 
-                  alt="Live Plotting">
+                  src="images/text-to-speech.svg" 
+                  alt="Text-To-Speech with Python using pyttsx3"
+                  title="Text-To-Speech with Python using pyttsx3">
               </a>
               <p class="card-caption">
                 <a class="listing-link" rel="noopener noreferrer nofollow" href="https://github.com/WilliamLHostetter/text-to-speech-pyttsx3-python" target="_blank">
@@ -323,8 +404,9 @@
                   width="1400"
                   height="700"
                   class="bkg-vertical-gradient"
-                  src="img/sqrt-digits.svg" 
-                  alt="Live Plotting">
+                  src="images/sqrt-digits.svg" 
+                  alt="Square Root to Arbitrary Precision"
+                  title="Square Root to Arbitrary Precision">
               </a>
               <p class="card-caption">
                 <a class="listing-link" rel="noopener noreferrer nofollow" href="https://github.com/WilliamLHostetter/sqrt-arbitrary-precision-python" target="_blank">
@@ -338,8 +420,9 @@
                   width="1200"
                   height="900"
                   class="bkg-vertical-gradient"
-                  src="img/pi-digits.svg" 
-                  alt="Live Plotting">
+                  src="images/pi-digits.svg" 
+                  alt="Computing Digits of π"
+                  title="Computing Digits of π">
               </a>
               <p class="card-caption">
                 <a class="listing-link" rel="noopener noreferrer nofollow" href="https://github.com/WilliamLHostetter/pi-arbitrary-precision-python" target="_blank">
@@ -490,8 +573,8 @@
             <h2 class="section-heading">Skills</h2>
             <ul class="unstyled-list">  
               <li>
-                <h3>
-                  <span class="nowrap">Data Analysis</span> &amp;
+                <h3 class="skills-header">
+                  <span class="nowrap"><img class="skills-icon" src="images/data-analysis-icon.svg" title="Data Analysis" /> Data Analysis</span> &amp;
                   <span class="nowrap">Numerical Computing</span>
                 </h3>
                 <div class="skill-bar">
@@ -505,7 +588,13 @@
                 </div>
               </li>
               <li>
-                <h3>Responsive Web Design (RWD), HTML5, CSS3, JavaScript</h3>
+                <h3 class="skills-header"><span class="nowrap">HTML5 <img class="skills-icon" src="images/html5-logo.svg" title="HTML5" /></span>, 
+                  <span class="nowrap">CSS3 <img class="skills-icon" src="images/css3-logo.svg" title="CSS3" /></span>, 
+                  <span class="nowrap">JavaScript<img class="skills-icon" src="images/javascript-logo.svg" title="JavaScript" /></span>, 
+                  <span class="nowrap">React.js<img class="skills-icon" src="images/react-logo.svg" title="React.js" /></span>, 
+                  <span class="nowrap"><img class="skills-icon" src="images/svg-logo.svg" alt="SVG" title="Scalable Vector Graphics (SVG)" /></span>, 
+                  <span class="nowrap">Responsive Web Design (RWD) <img class="skills-icon" src="images/responsive-web-design.svg" title="Responsive Web Design" /></span>
+                </h3>
                 <div class="skill-bar">
                   <div class="skill-bar-fill w-90"
                     role="meter"
@@ -517,7 +606,13 @@
                 </div>
               </li>
               <li>
-                <h3><span class="nowrap">Python (Flask, Django)</span></h3>
+                <h3 class="skills-header">
+                  <span class="nowrap">Python <img class="skills-icon" src="images/python-logo.svg" title="Python" /></span>,
+                  <span class="nowrap">Flask <img class="skills-icon" src="images/flask-logo.svg" title="Flask" /></span>, 
+                  <span class="nowrap">Django <img class="skills-icon" src="images/django-logo.svg" title="Django" /></span>,
+                  <span class="nowrap">OpenCV <img class="skills-icon" src="images/opencv-logo.svg" title="OpenCV" /></span>,
+                  &amp; <span class="nowrap">Matlab <img class="skills-icon" src="images/matlab-logo.png" title="Matlab" /></span>
+                </h3>
                 <div class="skill-bar">
                   <div class="skill-bar-fill w-90"
                     role="meter"
@@ -529,11 +624,18 @@
                 </div>
               </li>
               <li>
-                <h3>
-                  <span class="nowrap">PHP (WAMP, LAMP, Laravel)</span>, 
-                  <span class="nowrap">JavaScript (Node.js, Express)</span>, 
+                <h3 class="skills-header">
+                  <span class="nowrap">
+                    <img class="skills-icon" src="images/php-logo.svg" alt="PHP" title="PHP" />
+                    (WAMP, LAMP, Laravel <img class="skills-icon" src="images/laravel-logo.svg" title="Laravel" />)
+                  </span>, 
+                  <span class="nowrap">JavaScript 
+                    (<img class="skills-icon" src="images/nodejs-logo.svg" alt="Node.js" title="Node.js"/>, 
+                    <img class="skills-icon" src="images/ExpressJS-logo.svg" alt="ExpressJS" title="ExpressJS" />) 
+                  </span>, 
                   and 
-                  <span class="nowrap">C# (ASP.NET)</span>
+                  <span class="nowrap"><img class="skills-icon" src="images/C-Sharp-logo.svg" alt="C#" title="C# Programming Language" /> 
+                    (<img class="skills-icon" src="images/asp-dot-net-logo.svg" alt="ASP.NET" alt="ASP.NET" title="ASP.NET"/>)</span>
                 </h3>
                 <div class="skill-bar">
                   <div class="skill-bar-fill w-75"
@@ -546,7 +648,13 @@
                 </div>
               </li>
               <li>
-                <h3>C, C++, C#, and Go</h3>
+                <h3 class="skills-header">
+                  <img class="skills-icon" src="images/c-logo.svg" alt="C" title="C Programming Language" />, 
+                  <img class="skills-icon" src="images/cplusplus-logo.svg" alt="C++" title="C++ Programming Language" />, 
+                  <img class="skills-icon" src="images/c-sharp-logo.svg" alt="C#" title="C# Programming Language" />, 
+                  <img class="skills-icon" src="images/java-logo.svg" alt="Java" title="Java Programming Language" />, 
+                  and <img class="skills-icon" src="images/go-logo.svg" alt="Go" title="Go Programming Language" />
+                </h3>
                 <div class="skill-bar">
                   <div class="skill-bar-fill w-75"
                     role="meter"
@@ -558,11 +666,20 @@
                 </div>
               </li>
               <li>
-                <h3>
+                <h3 class="skills-header">
                   Databases:<br>
-                  <span class="nowrap">SQL (SQLite, MySQL, PostgreSQL)</span>,
-                  <span class="nowrap"> NoSQL (MongoDB)</span>, and 
-                  <span class="nowrap">TSDB (InfluxDB)</span>
+                  <span class="nowrap">SQL 
+                    (<img class="skills-icon" src="images/sqlite-logo.svg" alt="SQLite" title="SQLite Database" /> SQLite, 
+                    <img class="skills-icon" src="images/mysql-logo.svg" alt="MySQL" title="MySQL Database" />, 
+                    <img class="skills-icon" src="images/postgresql-logo.svg" alt="PostgreSQL" title="PostgreSQL Database" />)
+                    </span>,
+                  <span class="nowrap">
+                    NoSQL (<img class="skills-icon" src="images/mongodb-logo.svg" alt="MongoDB" title="MongoDB" />)
+                  </span>, 
+                    and 
+                  <span class="nowrap">TSDB 
+                    (<img class="skills-icon" src="images/influxdb-logo.svg" alt="InfluxDB" title="InfluxDB" />)
+                  </span>
                 </h3>
                 <div class="skill-bar">
                   <div class="skill-bar-fill w-75"
@@ -575,9 +692,12 @@
                 </div>
               </li>
               <li>
-                <h3>Cloud services (AWS, Azure, GCP, Linode, DigitalOcean), 
-                  <span class="nowrap">Containerization (Docker)</span>, and 
-                  <span class="nowrap">version control (Git, GitHub)</span></h3>
+                <h3 class="skills-header">Cloud services 
+                  (<img class="skills-icon" src="images/aws-logo.svg" alt="AWS" title="Amazon Web Services" />, 
+                  <img class="skills-icon" src="images/azure-logo.svg" alt="Azure" title="Microsoft Azure" />, 
+                  <img class="skills-icon" src="images/gcp-logo.svg" alt="GCP" title="Google Cloud Platform" />, 
+                  <img class="skills-icon" src="images/linode-logo.svg" alt="Linode" title="Linode Cloud Computing" />)
+                </h3>
                 <div class="skill-bar">
                   <div class="skill-bar-fill w-75"
                     role="meter"
@@ -589,7 +709,11 @@
                 </div>
               </li>
               <li>
-                <h3>Elasticsearch Search Engine</h3>
+                <h3 class="skills-header">
+                  <span class="nowrap">
+                    Containerization (<img class="skills-icon" src="images/docker-logo.svg" alt="Docker" title="Docker" />)
+                  </span>
+                </h3>
                 <div class="skill-bar">
                   <div class="skill-bar-fill w-75"
                     role="meter"
@@ -601,7 +725,44 @@
                 </div>
               </li>
               <li>
-                <h3>System Administration, Linux</h3>
+                <h3 class="skills-header">
+                  <span class="nowrap">
+                    Version Control 
+                    (<img class="skills-icon" src="images/git-logo.svg" alt="Git" title="Git" />, 
+                    <img class="skills-icon" src="images/github-logo.svg" alt="GitHub" title="GitHub"/>)
+                  </span>
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-75"
+                    role="meter"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Comfortable</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h3 class="skills-header">
+                  <span class="nowrap">
+                    Search Engine (<img class="skills-icon" src="images/elasticsearch-logo.svg" alt="Elasticsearch" title="Elasticsearch"/>)
+                  </span>
+                </h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-75"
+                    role="meter"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    <span class="skill-bar-label">Comfortable</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h3 class="skills-header">
+                  <span class="nowrap">System Administration</span>, 
+                  <span class="nowrap">Linux <img class="skills-icon" src="images/linux-logo.svg" title="Linux" /></span>
+                </h3>
                 <div class="skill-bar">
                   <div class="skill-bar-fill w-75"
                     role="meter"
