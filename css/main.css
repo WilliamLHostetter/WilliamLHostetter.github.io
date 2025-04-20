@@ -236,6 +236,13 @@ aside .section-heading::after {
   content: none;
 }
 
+.subsection-heading {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 1.5em auto 1em auto;
+  text-align: center;
+}
+
 .section-label {
   font-size: 0.9rem;
   color: #444;
