@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" version="1.1" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <title>University of Idaho</title>
+  <rect y="-.001405" width="300" height="300" style="fill:#f1b300"/>
+  <path d="m86 25.761v67.77h22.586v112.94h-22.586v67.766h128v-67.766h-22.589v-112.94h22.589v-67.77z" fill="#f1b300" style="fill:#000000"/>
+  <path d="m93.513 33.319v52.707h22.59v128.01h-22.59l1e-4 52.71h112.95v-52.71h-22.591v-128.01l22.591 1e-3v-52.707l-112.95 3e-4zm7.5569 7.5337h97.884v37.648h-22.589v143.06h22.589v37.64h-97.884v-37.64h22.588v-143.06l-22.588-4e-3v-37.648z" fill="#ffffff" style="fill:#f1b300"/>
+</svg>

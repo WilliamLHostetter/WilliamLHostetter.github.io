@@ -76,6 +76,15 @@ a {
   text-decoration: none;
 }
 
+a img {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+.no-underline {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
 a:hover {
   color: var(--link-color-hover);
   text-decoration: underline;
